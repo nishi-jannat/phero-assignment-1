@@ -1,0 +1,194 @@
+/* google fonts */
+/* <uniquifier>: Use a unique and descriptive class name*/
+/*<weight>: Use a value from 100 to 900*/
+*{
+	margin: 0;
+	padding: 0;
+}
+.azeret-mono-font {
+  font-family: "Azeret Mono", monospace;
+}
+/* banner section*/
+.banner{
+	background-image: url(../phero-assignment-1/images/Hero-bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.banner-img{
+	display: flex;
+	justify-content: center;
+}
+.banner-content{
+	text-align: center;
+}
+.banner-title{
+	font-weight: bolder;
+	font-size: 35px;
+}
+.banner-description{
+	font-size: 18px;
+	line-height: 25px;
+}
+.banner-button {
+    padding: 18px 20px;
+    border: none;
+    background-color: #0D1321;
+    color: #ffff;
+    font-size: 18px;
+    border-radius: 5px;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+.banner-button a {
+    color: #ffff;
+    text-decoration: none;
+}
+/* shared style*/
+
+.main{
+	width: 900px;
+	margin: 0 auto;
+	
+}
+.section-title {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.section-title h3{
+	font-size: 35px;
+}
+.section-title p{
+	font-size: 18px;
+	line-height: 25px;
+}
+/* current target section*/
+
+.current-target-content{
+	display: flex;
+}
+.target-item-1{
+	padding: 20px;
+	background-color: rgba(255, 30, 30, 0.05);
+	margin-right: 14px;
+	border-radius: 10px;
+	box-shadow: 5px 3px 5px 0px rgba(199,191,199,1);
+}
+.target-item-2{
+	padding: 20px;
+	background-color: rgba(235, 235, 235, 1);
+	margin-right: 14px;
+	border-radius: 10px;
+	box-shadow: 5px 3px 5px 0px rgba(199,191,199,1);
+}
+.target-item-3{
+	padding: 20px;
+	background-color: rgba(255, 221, 0, 0.064);
+	margin-right: 14px;
+	border-radius: 10px;
+	box-shadow: 5px 3px 5px 0px rgba(199,191,199,1);
+}
+/* web development section*/
+
+.web-item-1{
+	display: flex;
+}
+.web-item-2{
+	display: flex;
+}
+.web-item-3{
+	display: flex;
+}
+.web-description-1{
+	margin-right: 225px;
+}
+.web-description-2{
+	margin-left: 225px;
+}
+.web-description-3{
+	margin-right: 225px;
+}
+.web-description h4{
+	font-size: 23px;
+}
+.web-button{
+	padding: 10px 10px;
+}
+.web-button a{
+	color: black;
+	font-size: 18px;
+	font-family: "Azeret Mono", monospace;
+	text-decoration: none;
+}
+/* support section*/
+
+.support {
+    background-image: url(../phero-assignment-1/images/handshake.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 240px;
+    border-radius: 10px;
+	position: relative;
+	overflow: hidden;
+	margin-top: 50px;
+}
+.img-overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(13, 19, 33, 0.4);
+}
+.support-title{
+	text-align: center;
+}
+.support-title h3{
+	color: #fff;
+	margin-bottom: 0px;
+}
+.support-title p{
+	color: #fff;
+}
+.support-input {
+    text-align: center;
+    margin-top: 50px;
+}
+.support-input input {
+    border: none;
+    width: 270px;
+    height: 45px;
+    padding: 0 12px;
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 12px;
+    font-family: 'Azeret Mono';
+}
+.support-input input:focus{
+	outline: none;
+}
+.submit-button {
+    font-family: 'Azeret Mono';
+    padding: 0px 10px;
+    width: 90px;
+    height: 45px;
+    letter-spacing: 2px;
+    border: none;
+    cursor: pointer;
+}
+/* footer section*/
+
+.footer{
+    background-color: aliceblue;
+	margin-top: 50px;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-icon ul{
+	display: flex;
+}
+.footer-icon ul li {
+    list-style: none;
+    margin-left: 15px;
+}
